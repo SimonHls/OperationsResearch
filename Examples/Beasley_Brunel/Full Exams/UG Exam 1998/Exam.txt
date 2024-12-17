@@ -1,0 +1,115 @@
+UG examination 1998
+Answer FOUR questions.
+All questions carry equal marks.
+If more than four questions are answered only the first four answered will be marked.
+Marks will be deducted in this examination if there is insufficient written explanation.
+
+Question 1
+
+The table below defines the activities that have been provisionally planned within a small project.
+
+     Activity                 Completion               Immediate
+                              time                     predecessor
+                             (weeks)                   activities
+      A                        3                           B
+      B                        5                           C
+      C                        4                           -
+      D                        8                           B,A
+      E                        3                           A,C
+      F                        2                           E
+Draw the network diagram.
+Calculate the minimum overall project completion time and identify which activities are critical.
+What is the slack (float) time associated with each of the non-critical activities.
+Comment upon the project if, after 6 weeks, the status of the activities is as follows:
+Finished - B,C
+In progress - A (1 week to completion), D (6 weeks to completion)
+If the situation is as after 6 weeks above, but now the completion time for activity D is uncertain (optimistic time 4 weeks, most likely time 6 weeks, pessimistic time 10 weeks), comment upon the project.
+
+Question 2
+
+A company is comparing the performance of a number of its branches using data envelopment analysis. 
+The data for these branches involves two output measures and one input measure. 
+The output measures are profit per square metre and average customer feedback (from zero to ten, ten being excellent). 
+The input measure is staff cost. This data is as shown below
+
+      Branch      Profit               Customer      Staff
+                  per sq metre         feedback      cost (£'000)
+      1           6.3                  5.6           230
+      2           4.5                  3.3           240
+      3           3.7                  4.5           300
+      4           6.7                  7.8           550
+What is the mathematical program that we need to solve to determine the efficiency of branch 1?
+Show that this mathematical program can be transformed into a two variable linear program.
+By solving this two variable linear program graphically find the efficiency of branch 1.
+Find the efficiencies of branches 2, 3 and 4. What is the reference set for branch 4?
+Question 3
+
+The data below shows the earliest and latest landing times for a set of planes waiting to land at London Heathrow. 
+All times are measured in seconds from a common origin. 
+Heathrow has two runways which are operated in segregated-mode, that is one runway is dedicated to landings only and the other runway is dedicated to take-offs only.
+
+      Plane        Earliest time        Latest time          Type
+      1            10                   650                  1
+      2            30                   750                  1
+      3            50                   850                  2
+      4            70                   930                  2
+For example the earliest plane number 1 can land is time 10, the latest it must land is time 650 and it is of type 1.
+
+The plane type relates to the required separation time needed between the landing of two successive planes. 
+These separation times are shown in seconds below.
+
+                               First plane type
+                               1        2
+     Second plane type 1       180      250
+                       2       130      90
+For example once a plane of type 2 has landed at least 250 seconds must elapse before a plane of type 1 can land.
+
+The objective is to land all planes as quickly as possible (i.e. to minimise the landing time of the last plane to land).
+
+Develop TWO integer programming formulations of the above problem:
+
+the first formulation using integer variables xij=1 if plane i lands before plane j, =0 otherwise
+the second formulation using integer variables yik=1 if plane i is the k'th plane to land, =0 otherwise
+Question 4
+
+In analysing switching by commuters between car, bus and tube as the mode of transport for their daily journeys to work in London a Government task force has obtained the following data:
+
+                                       Next daily journey by:
+                                       Car     Bus     Tube
+     Last daily journey by:   Car      0.95    0.01    0.04
+                              Bus      0.15    0.50    0.35
+                              Tube     0.10    0.10    0.80
+For example if the last daily journey was by car then the probability that the next daily journey is by bus is 0.01. 
+If initially 25% of commuters travel by car, 15% by bus and 60% by tube what proportion will travel by each mode of transport after another two daily journeys?
+
+What is your forecast for the long-run proportion of commuters travelling by car, bus and tube?
+
+Question 5
+
+A company requires a part at the rate of 500 units per month. 
+The part costs £20 per unit when purchased from an outside supplier. 
+The cost of making an order is estimated to be £180 and the company uses an interest rate of 10% per annum.
+
+Determine the Economic Order Quantity (EOQ) and the associated total annual cost.
+If the company currently order weekly how much would ordering the EOQ save them?
+
+The company has negotiated a discount deal with the outside supplier. 
+The cost of the part depends on the quantity ordered in a single order and would be as follows:
+
+all orders of 750 units or over (but less than 1000 units) get a discount of 10%
+all orders of 1000 units or over get a discount of 20%
+
+What would be the new Economic Order Quantity and what savings, if any, would you achieve annually compared with ordering without any discount (i.e. ordering the original EOQ as calculated above)?
+
+Question 6
+
+Useful Products, a company manufacturing a number of different oral hygiene products, have developed a new mouthwash (codenamed ABC). Useful have to decide whether to introduce ABC to the market nationally or not. After careful consideration of all options the management of Useful have narrowed their options to three:
+
+shelve the introduction of ABC until there are signs of recovery in the national economy
+introduce ABC on a trial basis in the local market and evaluate the results. Then decide whether to introduce ABC nationally or not.
+do not conduct local trials but introduce ABC nationally immediately.
+If ABC is introduced on a trial basis locally the trial would cost £150,000 and based on similar past trials there is a 65% chance that ABC would be successful locally. Analysis of past history has revealed that a product successful on a local basis has a 80% chance of being successful on a national basis. However even if ABC is unsuccessful locally there is still a 45% chance that it would be successful nationally.
+
+If ABC is introduced nationally without local trials there is a 55% chance that it would be a success. If ABC is successful nationally it will give a net return of £700,000, but a net loss of £250,000 if it is a failure nationally.
+
+Show the above scenario as a decision tree and then recommend what action Useful should take to maximise its net return.

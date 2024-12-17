@@ -1,0 +1,9 @@
+You have:
+
+200 resistors, 120 transistors, 150 capacitors
+
+and you produce two types of circuits:
+Type A requires 20 resistors, 10 transistors and 10 capacitors.
+Type B requires 10 resistors, 20 transistors and 30 capacitors.
+
+If the profit of type A is 5 and that of type B is 12, how many circuits of each should we produce to maximize profits?

@@ -1,0 +1,44 @@
+A company makes two products (X and Y) using two machines (A and B). 
+Each unit of X that is produced requires 50 minutes processing time on machine A and 30 minutes processing time on machine B. 
+Each unit of Y that is produced requires 24 minutes processing time on machine A and 33 minutes processing time on machine B.
+
+At the start of the current week there are 30 units of X and 90 units of Y in stock. 
+Available processing time on machine A is forecast to be 40 hours and on machine B is forecast to be 35 hours.
+
+The demand for X in the current week is forecast to be 75 units and for Y is forecast to be 95 units. 
+Company policy is to maximise the combined sum of the units of X and the units of Y in stock at the end of the week.
+
+Formulate the problem of deciding how much of each product to make in the current week as a linear program.
+Solve this linear program graphically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solution
+Let
+
+x be the number of units of X produced in the current week
+y be the number of units of Y produced in the current week
+then the constraints are:
+
+50x + 24y <= 40(60) machine A time
+30x + 33y <= 35(60) machine B time
+x >= 75 - 30
+i.e. x >= 45 so production of X >= demand (75) - initial stock (30), which ensures we meet demand
+y >= 95 - 90
+i.e. y >= 5 so production of Y >= demand (95) - initial stock (90), which ensures we meet demand
+The objective is: maximise (x+30-75) + (y+90-95) = (x+y-50)
+i.e. to maximise the number of units left in stock at the end of the week
+
+It is plain from the diagram below that the maximum occurs at the intersection of x=45 and 50x + 24y = 2400

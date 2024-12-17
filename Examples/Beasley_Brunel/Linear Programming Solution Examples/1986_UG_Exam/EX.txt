@@ -1,0 +1,41 @@
+A carpenter makes tables and chairs. 
+Each table can be sold for a profit of £30 and each chair for a profit of £10. 
+The carpenter can afford to spend up to 40 hours per week working and takes six hours to make a table and three hours to make a chair. 
+Customer demand requires that he makes at least three times as many chairs as tables. 
+Tables take up four times as much storage space as chairs and there is room for at most four tables each week.
+
+Formulate this problem as a linear programming problem and solve it (graphically) using google ortools and python.
+
+
+
+
+
+
+
+Solution
+Variables
+Let
+
+xT = number of tables made per week
+
+xC = number of chairs made per week
+
+Constraints
+total work time
+6xT + 3xC <= 40
+
+customer demand
+xC >= 3xT
+
+storage space
+(xC/4) + xT <= 4
+
+all variables >= 0
+Objective
+maximise 30xT + 10xC
+
+The graphical representation of the problem is given below and from that we have that the solution lies at the intersection of
+
+(xC/4) + xT = 4 and 6xT + 3xC = 40
+
+Solving these two equations simultaneously we get xC = 10.667, xT = 1.333 and the corresponding profit = £146.667

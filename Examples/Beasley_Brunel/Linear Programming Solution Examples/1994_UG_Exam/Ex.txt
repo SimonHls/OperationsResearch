@@ -1,0 +1,53 @@
+A company is involved in the production of two items (X and Y). 
+The resources need to produce X and Y are twofold, namely machine time for automatic processing and craftsman time for hand finishing. 
+The table below gives the number of minutes required for each item:
+
+         Machine time Craftsman time
+Item X   13           20
+     Y   19           29
+
+The company has 40 hours of machine time available in the next working week but only 35 hours of craftsman time. 
+Machine time is costed at £10 per hour worked and craftsman time is costed at £2 per hour worked. 
+Both machine and craftsman idle times incur no costs. The revenue received for each item produced (all production is sold) is £20 for X and £30 for Y. 
+The company has a specific contract to produce 10 items of X per week for a particular customer.
+
+Formulate the problem of deciding how much to produce per week as a linear program.
+Solve this linear program graphically.
+
+
+
+
+
+
+ACHTUNG! Ab hier Spoiler für die Lösung:
+
+Solution
+Let
+
+x be the number of items of X
+y be the number of items of Y
+then the LP is:
+
+maximise
+
+20x + 30y - 10(machine time worked) - 2(craftsman time worked)
+subject to:
+
+13x + 19y <= 40(60) machine time
+20x + 29y <= 35(60) craftsman time
+x >= 10 contract
+x,y >= 0
+so that the objective function becomes
+
+maximise
+
+20x + 30y - 10(13x + 19y)/60 - 2(20x + 29y)/60
+i.e. maximise
+
+17.1667x + 25.8667y
+subject to:
+
+13x + 19y <= 2400
+20x + 29y <= 2100
+x >= 10
+x,y >= 0

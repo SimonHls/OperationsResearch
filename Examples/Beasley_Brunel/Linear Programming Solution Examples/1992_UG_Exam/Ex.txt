@@ -1,0 +1,48 @@
+A company manufactures two products (A and B) and the profit per unit sold is £3 and £5 respectively. 
+Each product has to be assembled on a particular machine, each unit of product A taking 12 minutes of assembly time and each unit of product B 25 minutes of assembly time. 
+The company estimates that the machine used for assembly has an effective working week of only 30 hours (due to maintenance/breakdown).
+
+Technological constraints mean that for every five units of product A produced at least two units of product B must be produced.
+
+Formulate the problem of how much of each product to produce as a linear program.
+Solve this linear program graphically.
+The company has been offered the chance to hire an extra machine, thereby doubling the effective assembly time available. 
+What is the maximum amount you would be prepared to pay (per week) for the hire of this machine and why?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solution
+Let
+
+xA = number of units of A produced
+
+xB = number of units of B produced
+
+then the constraints are:
+
+12xA + 25xB <= 30(60) (assembly time)
+
+xB >= 2(xA/5)
+
+i.e. xB - 0.4xA >= 0
+
+i.e. 5xB >= 2xA (technological)
+
+where xA, xB >= 0
+
+and the objective is
+
+maximise 3xA + 5xB
+
+It is plain from the diagram below that the maximum occurs at the intersection of 12xA + 25xB = 1800 and xB - 0.4xA = 0

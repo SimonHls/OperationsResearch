@@ -1,0 +1,8 @@
+A store wants to liquidate 200 shirts and 100 pairs of pants from last season. 
+
+They have decided to put together two offers, A and B:
+Offer A is a package of one shirt and a couple of pants (Anmerkung: Das ist dumm formuliert, a couple heißt 1 Paar) which will sell for 30. 
+Offer B is a package of three shirts and a pair of pants, which will sell for 50. 
+
+The store does not want to sell less than 20 packages of Offer A and less than 10 of Offer B. 
+How many boxes do they have to deal with to maximize the money generated from the promotion?

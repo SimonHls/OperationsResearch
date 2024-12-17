@@ -1,0 +1,1 @@
+A school is preparing a trip for 400 students. The transportation company has 10 buses of 50 seats each and 8 buses of 40 seats but only has 9 drivers available. The rental cost for a large bus is  and  for a small bus. Calculate how many buses of each type should be used for the trip for the least possible cost.

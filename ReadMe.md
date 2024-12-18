@@ -29,3 +29,8 @@ The reason this repo exists. OR-Tools is great!
 #### [OR-Notes by J E Beasley](https://people.brunel.ac.uk/~mastjjb/jeb/or/contents.html)
 
 A beautiful web-1.0 page containing a lot of information about OR. It also contains a wealth of example problems, some of which are solved in this repo.
+
+### Misc links
+
+Random stuff i've found and didn't categorize yet
+https://www.sciencedirect.com/science/article/pii/S0377221724002649
